@@ -1,6 +1,8 @@
 # CacheCraft
 
 ![CI](https://github.com/ShamsRupak/cachecraft/actions/workflows/ci.yml/badge.svg)
+![C++20](https://img.shields.io/badge/C%2B%2B-20-blue)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 **A high-performance, in-memory cache server built with modern C++ (C++20)**
 
