@@ -1,5 +1,6 @@
 #include "store/lru_shard.h"
 
+#include <mutex>
 #include <stdexcept>
 
 namespace cachecraft {
