@@ -1,5 +1,7 @@
 # CacheCraft
 
+![CI](https://github.com/ShamsRupak/cachecraft/actions/workflows/ci.yml/badge.svg)
+
 **A high-performance, in-memory cache server built with modern C++ (C++20)**
 
 CacheCraft is a Redis-inspired cache server that demonstrates production-grade systems programming: custom protocol design, O(1) LRU eviction, sharded concurrent data structures, async I/O, TTL expiration, and comprehensive testing with sanitizer support.
