@@ -24,7 +24,7 @@ CacheCraft is a Redis-inspired cache server that demonstrates production-grade s
 
 ```
                     ┌─────────────┐
-                    │  TCP Client  │
+                    │  TCP Client │
                     └──────┬──────┘
                            │
                     ┌──────▼──────┐
@@ -47,17 +47,17 @@ CacheCraft is a Redis-inspired cache server that demonstrates production-grade s
                     └──────┬──────┘
                            │
               ┌────────────▼────────────┐
-              │    Sharded Cache Store   │
-              │                          │
+              │    Sharded Cache Store  │
+              │                         │
     ┌─────────┼─────────┬───────────┐   │
     │ Shard 0 │ Shard 1 │ ... │ N-1 │   │
     │ RW Lock │ RW Lock │     │     │   │
     │ LRU List│ LRU List│     │     │   │
     │ HashMap │ HashMap │     │     │   │
     └─────────┴─────────┴─────┴─────┘   │
-              │                          │
-              │  Background Sweeper ─────┤  Periodic TTL cleanup
-              └──────────────────────────┘
+              │                         │
+              │  Background Sweeper ────┤  Periodic TTL cleanup
+              └─────────────────────────┘
 ```
 
 ## Build Instructions
